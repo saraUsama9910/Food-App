@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class FoodApp extends StatefulWidget {
   FoodApp._internal();//named constructor
-  static final FoodApp _instance = FoodApp._internal();
-factory FoodApp()=>_instance;//singleton or single instance
+  static final FoodApp _instance = FoodApp._internal();//singleton or single instance
+factory FoodApp()=>_instance;//factory
   @override
   State<FoodApp> createState() => _FoodAppState();
 }
