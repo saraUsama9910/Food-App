@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class FoodApp extends StatefulWidget {
-  FoodApp._internal(); //named constructor
+class LearningApp extends StatefulWidget {
+  LearningApp._internal(); //named constructor
   int appState = 0;
-  static final FoodApp _instance =
-      FoodApp._internal(); //singleton or single instance
-  factory FoodApp() => _instance; //factory
+  static final LearningApp _instance =
+      LearningApp._internal(); //singleton or single instance
+  factory LearningApp() => _instance; //factory
   @override
-  State<FoodApp> createState() => _FoodAppState();
+  State<LearningApp> createState() => _LearningAppState();
 }
 
-class _FoodAppState extends State<FoodApp> {
+class _LearningAppState extends State<LearningApp> {
   @override
   Widget build(BuildContext context) {
     return Container();
